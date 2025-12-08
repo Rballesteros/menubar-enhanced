@@ -11,6 +11,10 @@
 
 <br /><br /><br />
 
+> **Note:** This is a fork of the [original menubar project](https://github.com/maxogden/menubar) by Max Ogden, maintained by Rodolfo Ballesteros. This fork extends Electron support to version 39.x.x and includes compatibility updates for newer Electron versions.
+
+<br /><br /><br />
+
 This module provides boilerplate for setting up a menubar application using Electron. All you have to do is point it at your `index.html` and `menubar` will handle the rest.
 
 ✅ Only one dependency, and one peer-dependency.

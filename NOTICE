@@ -1,0 +1,14 @@
+Menubar Fork
+Copyright 2025 Rodolfo Ballesteros
+
+This is a fork of the menubar project originally created by Max Ogden.
+
+Original Project: https://github.com/maxogden/menubar
+Fork Repository: https://github.com/Rballesteros/menubar
+
+This fork includes the following modifications:
+- Updated Electron peer dependency support to version 39.x.x
+- Adjusted compatibility for newer Electron versions
+
+The original menubar project is licensed under the BSD 2-Clause License.
+See the LICENSE file for the full license text.
