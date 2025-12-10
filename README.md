@@ -9,7 +9,11 @@
 <h1 align="center">➖ Menubar</h1>
 <h4 align="center">High level way to create menubar desktop applications with Electron.</h4>
 
-<br /><br /><br />
+<br />
+
+> **Enhanced Fork**: This fork adds support for Electron 39.x while maintaining compatibility with Electron 9.x and above. Original project by [Max Ogden](https://github.com/maxogden/menubar).
+
+<br /><br />
 
 This module provides boilerplate for setting up a menubar application using Electron. All you have to do is point it at your `index.html` and `menubar` will handle the rest.
 
@@ -135,3 +139,16 @@ See the reference [API docs](./docs/globals.md).
 - To restore focus of previous window after menubar hide, use `mb.on('after-hide', () => { mb.app.hide() } )` or similar
 - To create a native menu, you can use `tray.setContextMenu(contextMenu)`, and pass this custom tray to menubar: `const mb = menubar({ tray });`. See [this example](https://github.com/maxogden/menubar/tree/master/examples/native-menu) for more information.
 - To avoid a flash when opening your menubar app, you can disable backgrounding the app using the following: `mb.app.commandLine.appendSwitch('disable-backgrounding-occluded-windows', 'true');`
+
+## Credits
+
+**Original Project**: Created by [Max Ogden](https://github.com/maxogden)
+- Original repository: [maxogden/menubar](https://github.com/maxogden/menubar)
+
+**Enhanced Fork**: Maintained by [Rballesteros](https://github.com/Rballesteros)
+- This fork adds Electron 39.x support and ongoing maintenance
+- Support this fork: [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/r898283)
+
+## License
+
+BSD-2-Clause - See [LICENSE](LICENSE) file for details

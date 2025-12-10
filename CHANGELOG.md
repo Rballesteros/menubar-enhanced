@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [9.5.3](https://github.com/Rballesteros/menubar/compare/v9.5.2...v9.5.3) (2025-12-10)
+
+### Features
+
+* **electron**: Add support for Electron 39.x ([feature/electron-update](https://github.com/Rballesteros/menubar/tree/feature/electron-update))
+  - Updated devDependencies to use Electron 39.2.6
+  - Extended peerDependencies range to support Electron versions up to 40.0.0
+  - Updated compatibility documentation in README
+  - Maintains backward compatibility with Electron 9.x and above
+
 ### [9.5.2](https://github.com/maxogden/menubar/compare/v9.5.1...v9.5.2) (2025-10-10)
 
 ### [9.5.1](https://github.com/maxogden/menubar/compare/v9.5.0...v9.5.1) (2024-10-11)
