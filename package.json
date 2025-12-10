@@ -35,6 +35,7 @@
   },
   "scripts": {
     "build": "rimraf lib/ && tsc",
+    "prepare": "npm run build",
     "deploy": "yarn build && standard-version",
     "docs": "typedoc",
     "lint:check": "biome check",
