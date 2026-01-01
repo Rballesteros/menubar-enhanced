@@ -256,7 +256,7 @@ export class Menubar extends EventEmitter {
 
     // if blur was invoked clear timeout
     if (this._blurTimeout) {
-      clearInterval(this._blurTimeout);
+      clearTimeout(this._blurTimeout);
     }
 
     if (this._browserWindow && this._isVisible) {
