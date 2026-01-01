@@ -257,6 +257,7 @@ export class Menubar extends EventEmitter {
     // if blur was invoked clear timeout
     if (this._blurTimeout) {
       clearTimeout(this._blurTimeout);
+      this._blurTimeout = null;
     }
 
     if (this._browserWindow && this._isVisible) {
@@ -321,6 +322,12 @@ export class Menubar extends EventEmitter {
 
   private windowClear(): void {
     this._browserWindow = undefined;
+    this._positioner = undefined;
+    this._isVisible = false;
+    if (this._blurTimeout) {
+      clearTimeout(this._blurTimeout);
+      this._blurTimeout = null;
+    }
     this.emit('after-close');
   }
 }
